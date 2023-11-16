@@ -3,12 +3,14 @@ body{
     padding-top: 5rem;
 }
 
-.dropdown{
-    padding-top: 5rem;
-    size: 10cm;
+select{
+    margin-top: 3rem;
+    font-size: larger;
+}    
+
+.result{
+    display: flex;
+    flex: 1;
+    font-size: larger;
 }
 
-.dropdown-menu{
-    width: 20%;
-    
-}

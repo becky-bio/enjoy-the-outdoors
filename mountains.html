@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="/styles/mountains.css">
 
+    <script src="/data/scripts/mountainData.js"></script>
     <script defer src="/data/scripts/mountains.js"></script>
-    <script defer src="/data/scripts/mountainData.js"></script>
+
 </head>
 
 <body>
@@ -40,57 +41,155 @@
 
         <section>
             <form>
-                <select name="mountaindata">
+                <select id="mountainData">
                     <option>Select Mountain</option>
-                    <option value="Mt. Washington">Mt. Washington</option>
-                    <option value="Mt. Adams">Mt. Adams</option>
-                    <option value="Mt. Jefferson">Mt. Jefferson</option>
-                    <option value="Mt. Monroe">Mt. Monroe</option>
-                    <option value="Mt. Madison">Mt. Madison</option>
-                    <option value="Mt. Lafayette">Mt. Lafayette</option>
-                    <option value="Mt. Lincoln">Mt. Lincoln</option>
-                    <option value="South Twin">South Twin</option>
-                    <option value="Carter Dome">Carter Dome</option>
-                    <option value="Mt. Eisenhower">Mt. Eisenhower</option>
-                    <option value="North Twin">North Twin</option>
-                    <option value="Mt. Carrigain">Mt. Carrigain</option>
-                    <option value="Mt. Bond">Mt. Bond</option>
-                    <option value="Middle Carter">Middle Carter</option>
-                    <option value="West Bond">West Bond</option>
-                    <option value="Mt. Garfield">Mt. Garfield</option>
-                    <option value="Mt. Liberty">Mt. Liberty</option>
-                    <option value="South Carter">South Carter</option>
-                    <option value="Wildcat Mountain">Wildcat Mountain</option>
-                    <option value="Mt. Hancock">Mt. Hancock</option>
-                    <option value="South Kinsman">South Kinsman</option>
-                    <option value="Mt. Field">Mt. Field</option>
-                    <option value="Mt. Osceola">Mt. Osceola</option>
-                    <option value="Mt. Flume">Mt. Flume</option>
-                    <option value="South Hancock">South Hancock</option>
-                    <option value="Mt. Pierce">Mt. Pierce</option>
-                    <option value="North Kinsman">North Kinsman</option>
-                    <option value="Mt. Willey">Mt. Willey</option>
-                    <option value="Bondcliff">Bondcliff</option>
-                    <option value="Zealand Mountain">Zealand Mountain</option>
-                    <option value=" North Tripyramid"> North Tripyramid</option>
-                    <option value="Mt. Cabot">Mt. Cabot</option>
-                    <option value="East Osceola">East Osceola</option>
-                    <option value="Cannon Mountain">Cannon Mountain</option>
-                    <option value="Wildcat D">Wildcat D</option>
-                    <option value="Mt. Hale">Mt. Hale</option>
-                    <option value="Mt. Jackson">Mt. Jackson</option>
-                    <option value="Mt. Tom">Mt. Tom</option>
-                    <option value="Mt. Moriah">Mt. Moriah</option>
-                    <option value="Mt. Passaconaway">Mt. Passaconaway</option>
-                    <option value="Owl's Head">Owl's Head</option>
-                    <option value="Galehead Mountain">Galehead Mountain</option>
-                    <option value="Mt. Whiteface">Mt. Whiteface</option>
-                    <option value="Mt. Waumbek">Mt. Waumbek</option>
-                    <option value="Mt. Isolation">Mt. Isolation</option>
-                    <option value="Mt. Tecumseh">Mt. Tecumseh</option>
+                    <option
+                        value="Name: Mt. Washington,Elevation: 6288,Desc: Mt. Washington (6,288 feet) is the highest peak east of the Mississippi River and north of the Carolinas. The upper part of the mountain has a climate similar to that of northern Labrador and supports a variety of alpine flora and fauna, Effort: Strenuous">
+                        Mt. Washington</option>
+                    <option
+                        value="Name:Mt. Adams, Elevation: 5799, Desc: Mt. Adams (5,799') is the second highest peak in New England, offering spectacular views across the Great Gulf and King Ravine, Effort: Strenuous">
+                        Mt. Adams</option>
+                    <option
+                        value="Name:Mt. Jefferson, Elevation: 5716, Desc: Mt. Jefferson (5,716 feet) has three summits a short distance apart, in line northwest and southeast, with the highest in the middle. Perhaps the most striking view is down the Great Gulf with the Carter Range beyond, Effort: Strenuous">
+                        Mt. Jefferson</option>
+                    <option
+                        value="Name:Mt. Monroe, Elevation: 5372, Desc: Mt. Monroe (5,372 feet) is the highest of the Southern Presidentials, and is a sharply pointed peak rising abruptly from the area around the Lakes of the Clouds. The summit is completely above treeline and affords fine views of the deep chasm of Oakes Gulf, Effort:Strenuous">
+                        Mt. Monroe</option>
+                    <option
+                        value="Name:Mt. Madison, Elevation: 5366, Desc: Mt. Madison (5,366 feet) is the farthest northeast of the high peaks of the Presidential Range, remarkable for the great drop of more than 4,000 feet to the river valleys east and northeast from the summit, Effort: Strenuous">
+                        Mt. Madison</option>
+                    <option
+                        value="Name:Mt. Lafayette, Elevation: 5260, Desc: Mt. Lafayette (5,260 feet) represents the highest peak in the Franconia Ridge and, from the summit, offers a stunning view of the Pemigewasset Wilderness Area, Effort: Strenuous">
+                        Mt. Lafayette</option>
+                    <option
+                        value="Name:Mt. Lincoln, Elevation:5089, Desc: Mt. Lincoln (5,089 feet), a part of the popular and scenic Franconia Ridge, bears a sharp, rugged peak with excellent views of the surrounding area and an array of alpine plants, Effort:Strenuous ">
+                        Mt. Lincoln</option>
+                    <option
+                        value="Name:South Twin, Elevation: 4902, Desc:South Twin Mountain (4,902 feet) offers sweeping views to the south of the Franconia Ridge and Franconia Brook valleys, Effort:Strenuous ">
+                        South Twin</option>
+                    <option
+                        value="Name:Carter Dome, Elevation: 4832, Desc: Carter Dome (4,832'), in the Carter-Moriah Range, offers dramatic, close-up views of Mount Washington and the Presidential Range from its northeastern shoulder, Mount Hight, Effort: Strenuous ">
+                        Carter Dome</option>
+                    <option
+                        value="Name:Mt. Moosilauke, Elevation: 4802, Desc: Mount Moosilauke, at 4,802 feet, is the western-most 4,000-footer in NH. The alpine summit, on a clear day, affords hikers stunning views, to the east, of the Franconia Ridge and Presidentials, and to the west, the Green Mountains of Vermont and, in the distance, the Adirondacks in New York State, Effort: Moderate">
+                        Mt. Moosilauke</option>
+                    <option
+                        value="Name:Mt. Eisenhower, Elevation: 4760, Desc: Mount Eisenhower (4,760 ft.), part of the southern Presidential Range, has a bald summit that offers 360-degree views of the surrounding area, Effort: Moderate">
+                        Mt. Eisenhower</option>
+                    <option
+                        value="Name:North Twin, Elevation: 4761, Desc: North Twin Mountain (4,761 feet), adjacent to the taller South Twin Mountain, offers a challenging climb to superb outlook ledges near its summit, Effort: Strenuous">
+                        North Twin</option>
+                    <option
+                        value="Name:Mt. Carrigain, Elevation: 4700, Desc: Mount Carrigain, at 4,700 feet, is one of the highest peaks along the southeastern ridge bordering the Pemigewasset Wilderness Area. An observation tower on Carrigain's summit provides hikers with a stunning view of the surrounding White Mountains, Effort: Strenuous">
+                        Mt. Carrigain</option>
+                    <option
+                        value="Name:Mt. Bond, Elevation: 4698, Desc: Mount Bond (4,698 ft.), the highest peak in the southern Twin range, represents, with neighboring Mt. Guyot, one of the two most remote peaks in the White Mountains. From Bond's summit, there is virtually no sign of human impact in the form of roads or buildings, Effort: Strenuous">
+                        Mt. Bond</option>
+                    <option
+                        value="Name:Middle Carter, Elevation: 4610, Desc: A part of the Carter-Moriah Range, Middle Carter Mountain (4,610'), though wooded, rewards hikers 70 yards north of its summit with a view of the Presidential Range, Effort: Moderate to Strenuous">
+                        Middle Carter</option>
+                    <option
+                        value="Name:West Bond, Elevation: 4540, Desc: West Bond (4,540 ft.), a spur of Mount Bond in the southern Twin range, offers extensive views of the White Mountains with virtually no sign of human interference in the form of buildings or roads from the summit, Effort: Strenuous">
+                        West Bond</option>
+                    <option
+                        value="Name:Mt. Garfield, Elevation: 4500, Desc: A trip to Mt. Garfield's rocky summit (4,500 ft.) rewards hikers with a panoramic view of the surrounding Franconia Ridge and Franconia and Lincoln Brooks valleys, Effort: Moderate to Strenuous">
+                        Mt. Garfield</option>
+                    <option
+                        value="Name:Mt. Liberty, Elevation: 4459, Desc: Amidst the scenic Franconia Ridge, Mt. Liberty (4,459 feet) bears a sharp, ledgy peak with excellent views of the surrounding area, including nearby Mount Bond and the Pemigewasset Wilderness, Effort: Strenuous">
+                        Mt. Liberty</option>
+                    <option
+                        value="Name:South Carter, Elevation: 4430, Desc: In the midst of the Carter-Moriah Range, South Carter Mountain (4,430'), fails to provide any views from its wooded peak, but offers hikers the opportunity to explore the beauty of a typical high-elevation White Mountain boreal forest, Effort: Moderate to Strenuous">
+                        South Carter</option>
+                    <option
+                        value="Name: Wildcat Mountain, Elevation: 4422, Desc: Wildcat Mountain (4,422'), located in the Carter-Moriah Range, offers dramatic, close-up views of Carter Notch and Carter Dome from its summit. Wildcat's D Peak (4,062'), home to Wildcat Ski Area, is considered an independent 4,000-footer and offers excellent views of Mt. Washington and the Presidential Range from an observation tower, Effort: Strenuous">
+                        Wildcat Mountain</option>
+                    <option
+                        value="Name: Mt. Hancock, Elevation: 4420, Desc: Located at the southern border of the Pemigewasset Wilderness, Mt. Hancock is characterized by a long ridge with several peaks, most importantly the North Peak (4,420') and the South Peak (4,319'), also known as South Hancock. Although both peaks are wooded to the top, lookout ledges near the North Peak offer views of Mt. Osceola and the Sandwich Range to the south, Effort: Strenuous">
+                        Mt. Hancock</option>
+                    <option
+                        value="Name: South Kinsman, Elevation: 4358, Desc: South Kinsman (4358') is the highest point on the Kinsman-Cannon Ridge, Effort: Strenuous">
+                        South Kinsman</option>
+                    <option
+                        value="Name: Mt. Field, Elevation: 4340, Desc: Mt. Field (4,340') is the highest peak within the Willey Range, which rises from the western boundary of Crawford Notch State Park, Effort: Moderate">
+                        Mt. Field</option>
+                    <option
+                        value="Name: Mt. Osceola, Elevation: 4340, Desc: Mt. Osceola (4,340') is the highest peak in the Waterville Valley Region and offers great views of the Pemigewasset Wilderness to the north. East Osceola (4,156') is the subordinate peak to Mt. Osceola. Immediately to the south of Mt. Osceola is Mt. Tecumseh (4,003'), the shortest official 4,000 footer. East, across the valley, is the Tripyramid Massif, which includes North Tripyramid (4,180') and Middle Tripyramid (4,140'), Effort: Moderate">
+                        Mt. Osceola</option>
+                    <option
+                        value="Name: Mt. Flume, Elevation: 4328, Desc: Mt. Flume (4,328'), a part of the popular and scenic Franconia Ridge, bears a sharp, rugged peak with excellent views of the surrounding area and an array of alpine plants, Effort: Strenuous">
+                        Mt. Flume</option>
+                    <option
+                        value="Name: South Hancock, Elevation: 4319, Desc: Located at the southern border of the Pemigewasset Wilderness, Mt. Hancock is characterized by a long ridge with several peaks, most importantly the North Peak (4,420') and the South Peak (4,319'), also known as South Hancock. Although both peaks are wooded to the top, lookout ledges near the North Peak offer views of Mt. Osceola and the Sandwich Range to the south, Effort: Strenuous">
+                        South Hancock</option>
+                    <option
+                        value="Name: Mt. Pierce, Elevation: 4312, Desc:  Mount Pierce (4,312 ft.), part of the southern Presidential Range, has a flat summit with a broad, open area on the east side that offers striking views of the surrounding area, Effort: Moderate">
+                        Mt. Pierce</option>
+                    <option
+                        value="Name: North Kinsman, Elevation: 4293, Desc:North Kinsman (4,293') is the second highest peak on the Kinsman-Cannon Ridge. Ledges just below the wooded summit offer great views of Mt. Lafayette and Mt. Lincoln across Franconia Notch, Effort: Strenuous">
+                        North Kinsman</option>
+                    <option
+                        value="Name: Mt. Willey, Elevation: 4285, Desc: Mt. Willey (4,285') is the second of highest and southernmost mountain of the Willey Range, which also includes Mt. Field (4,340') and Mt. Tom (4,051'), Effort: Strenuous">
+                        Mt. Willey</option>
+                    <option
+                        value="Name: Bondcliff, Elevation: 4265, Desc: Bondcliff (4,265 ft.), along with neighboring Mt. Guyot and Mt. Bond, offers some of the most stunning views in the Whites, with virtually no sign of roads or buildings visible from the summit, Effort: Strenuous">
+                        Bondcliff</option>
+                    <option
+                        value="Name: Zealand Mountain, Elevation: 4260, Desc: The summit of Zealand Mountain (4,260 feet) is wooded and viewless, but the trip is nonetheless worthwhile when hikers include a stop at the nearby Zeacliff outlook along the way, Effort: Strenuous">
+                        Zealand Mountain</option>
+                    <option
+                        value="Name: North Tripyramid, Elevation: 4180, Desc: The Tripyramid massif includes three peaks: North Tripyramid (4,180'), Middle Tripyramid (4,140'), and South Tripyramid (4,100'). The latter peak is not considered an official 4,000 footer because there is not a sufficient change in altitude between its neighboring peak, Effort: Strenuous">
+                        North Tripyramid</option>
+                    <option
+                        value="Name: Mt. Cabot, Elevation: 4170, Desc: Mount Cabot (4,170 ft.) is the highest peak in New Hampshire's North Country, offering interesting views from the site of a former fire tower, just southeast of the summit, Effort: Moderate to Strenuous">
+                        Mt. Cabot</option>
+                    <option
+                        value="Name: East Osceola, Elevation: 4156, Desc: Mt. Osceola (4,340') is the highest peak in the Waterville Valley Region and offers great views of the Pemigewasset Wilderness to the north. East Osceola (4,156') is the subordinate peak to Mt. Osceola. Immediately to the south of Mt. Osceola is Mt. Tecumseh (4,003'), the shortest official 4,000 footer. East, across the valley, is the Tripyramid Massif, which includes North Tripyramid (4,180') and Middle Tripyramid (4,140'), Effort: Strenuous">
+                        East Osceola</option>
+                    <option
+                        value="Name: Middle Tripyramid, Elevation: 4140, Desc: The Tripyramid massif includes three peaks: North Tripyramid (4,180'), Middle Tripyramid (4,140'), and South Tripyramid (4,100'). The latter peak is not considered an official 4,000 footer because there is not a sufficient change in altitude between its neighboring peak, Effort: Strenuous">
+                        Middle Tripyramid</option>
+                    <option
+                        value="Name: Cannon Mountain, Elevation: 4100, Desc: Cannon Mountain (4,100') is also known as Profile Mountain, referring to the magnificent profile of the Old Man of the Mountain, an infamous formation of three ledges on the east cliff that collapsed in May 2003, Effort: Moderate">
+                        Cannon Mountain</option>
+                    <option
+                        value="Name: Wildcat D, Elevation: 4062, Desc: Wildcat Mountain (4,422'), located in the Carter-Moriah Range, offers dramatic, close-up views of Carter Notch and Carter Dome from its summit. Wildcat's D Peak (4,062'), home to Wildcat Ski Area, is considered an independent 4,000-footer and offers excellent views of Mt. Washington and the Presidential Range from an observation tower, Effort: Strenuous">
+                        Wildcat D</option>
+                    <option
+                        value="Name: Mt. Hale, Elevation: 4054, Desc: Mount Hale (4,054'), one of the Little River Mountains offers hikers an easy hike., Effort: Moderate">
+                        Mt. Hale</option>
+                    <option
+                        value="Name: Mt. Jackson, Elevation: 4052, Desc: Mount Jackson (4,052 ft.), part of the southern Presidential Range, has a square, ledgy summit that offers stunning views of the surrounding Presidentials, Effort: Moderate">
+                        Mt. Jackson</option>
+                    <option
+                        value="Name: Mt. Tom, Elevation: 4051, Desc: Mt. Tom (4,051') is the northern most peak of the Willey Range, which rises from the western boundary of Crawford Notch State Park, Effort: Moderate">
+                        Mt. Tom</option>
+                    <option
+                        value="Name: Mt. Moriah, Elevation: 4049, Desc: A part of the Carter-Moriah Range, Mount Moriah (4,049 ft.), boasts a ledgy summit with views of the surrounding area, Effort: Strenuous">
+                        Mt. Moriah</option>
+                    <option
+                        value="Name: Mt. Passaconaway, Elevation: 4043, Desc: Mt. Passaconaway (4,043'), the easternmost 4,000 footer of the Sandwich Range Wilderness, shares a prominent ridge with Mt. Whiteface (4,020'). A lookout ledge just below Mt. Passaconaway's wooded summit offers great views of the Tripyramid massif to the west and South Hancock (4,319') and Mt. Carrigain (4,700') to the north, Effort: Strenuous">
+                        Mt. Passaconaway</option>
+                    <option
+                        value="Name: Owl's Head, Elevation: 4025, Desc: Owl's Head Mountain (4,025 feet), occupies a narrow valley created by the Twin-Bond Range to the east and the Franconia Range to the west. More than ten 4,000s surround Owl's Head. Needless to say, it is one of the more remote major summits in the White Mountains, Effort: Strenuous">
+                        Owl's Head</option>
+                    <option
+                        value="Name: Galehead Mountain, Elevation: 4024, Desc: Galehead Mountain (4,024 feet), a part of the Twin Range, offers views of nearby North and South Twin from the Frost Trail, Effort: Strenuous">
+                        Galehead Mountain</option>
+                    <option
+                        value="Name: Mt. Whiteface, Elevation: 4020, Desc: Mt. Whiteface (4020') shares a prominent ridge with Mt. Passaconaway (4,043') the easternmost 4,000 footer of the Sandwich Range Wilderness. Lookout ledges south of Mt. Whiteface's wooded summit offer great views of New Hampshire's Lakes Region, Effort: Strenuous">
+                        Mt. Whiteface</option>
+                    <option
+                        value="Name: Mt. Waumbek, Elevation: 4006, Desc: Mt. Waumbek (4,006 ft.), is the highest peak in the Pliny Range of New Hampshire's North Country, offering views to the east just beyond the summit, along the Kilkenny Ridge Trail, Effort: Strenuous">
+                        Mt. Waumbek</option>
+                    <option
+                        value="Name: Mt. Isolation, Elevation: 4003, Desc: Mount Isolation (4,003 ft.) is the highest peak of the Montalban Ridge, a subsidiary of the Presidentials, and offers stunning views of the Presidentials - one of the finest views in the White Mountains, Effort:Strenuous ">
+                        Mt. Isolation</option>
+                    <option
+                        value="Name: Mt. Tecumseh, Elevation: 4003, Desc: Mt. Tecumseh (4,003') is the shortest official 4,000 footer and home to Waterville Valley ski area. Views to the immediate north include Mt. Osceola (4,340'), the highest peak in the region. East, across the valley, is the Tripyramid Massif, which includes North Tripyramid (4,180') and Middle Tripyramid (4,140'), Effort: Moderate">
+                        Mt. Tecumseh</option>
                 </select>
             </form>
-            </div>
+            <div id="result"></div>
         </section>
 
     </main>
