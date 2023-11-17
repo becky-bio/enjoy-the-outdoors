@@ -1,6 +1,6 @@
 html{
     box-sizing: border-box;
-    --bg-color: lightsalmon;
+    --bg-color: rgb(103, 164, 150);
 }
 
 body{

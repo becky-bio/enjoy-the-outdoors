@@ -1,14 +1,17 @@
-body{
+body {
     text-align: center;
     padding-top: 5rem;
 }
 
-select{
+select {
+    font-size: larger;
     margin-top: 3rem;
-    font-size: larger;
-}    
-
-div.result{
-    font-size: larger;
 }
 
+
+#result {
+    margin-top: 5rem;
+    padding: 10px;
+    display: inline-block;
+    font-size: large;
+}

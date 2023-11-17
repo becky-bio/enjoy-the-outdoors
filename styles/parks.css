@@ -1,24 +1,20 @@
-body{
+body {
     text-align: center;
     padding-top: 1rem;
 }
 
-.box{
-    margin-top: 3rem;
+
+h1 {
+    padding-bottom: 1rem;
 }
 
-.navbar{
-    margin-top: 3rem;
-    display: flex;
-    justify-content: space-evenly;
+h3 {
+    padding-bottom: 2rem;
 }
 
-.container-fluid{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.locationData{
-    display: flex;
-    justify-content: space-evenly;
+#result {
+    margin-top: 4rem;
+    padding: 10px;
+    display: inline-block;
+    font-size: larger;
 }

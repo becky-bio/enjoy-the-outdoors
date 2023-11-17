@@ -16,7 +16,7 @@ locationData.onchange = function displayLocation() {
 
   nationalParksArray.forEach(nationalPark => {
     if (nationalPark.State === selectedValue) {
-      resultElement.innerHTML = `Location: ${"State:" + nationalPark.State}, ${"Location ID:" + nationalPark.LocationID},${"location Name:"  + "" + nationalPark.LocationName},${"Addresss:" + nationalPark.Address},${nationalPark.State},${"City:" + nationalPark.City},${"ZipCode:" + nationalPark.ZipCode}`;
+      resultElement.innerHTML = `State: ${nationalPark.State}, Location ID: ${nationalPark.LocationID}, location Name: ${nationalPark.LocationName}, Addresss: ${nationalPark.Address}, City: ${nationalPark.City}, ZipCode: ${nationalPark.ZipCode}`;
     }
   });
 };
@@ -28,7 +28,7 @@ ParkData.onchange = function displayPark() {
 
   nationalParksArray.forEach(nationalPark => {
     if (nationalPark.LocationName.includes(selectedDescription)) {
-      resultElement.innerHTML = `Park: ${nationalPark.LocationName}, Type: ${nationalPark.parkType}`;
+      resultElement.innerHTML = `Park type: ${nationalPark.LocationName}, State: ${nationalPark.State}`;
     }
   });
 };
@@ -38,16 +38,7 @@ ParkData.onchange = function displayPark() {
 
 
 
-/*ParkData.onchange = function displayPark() {
-  let selectedValue = ParkData.value;
 
-  nationalParksArray.forEach(nationalPark => {
-    if (nationalPark.LocationName === selectedValue) {
-      resultElement.innerHTML = `Park: ${nationalPark.LocationName}, Type: ${nationalPark.parkType}`;
-    }
-  });
-};
-*/
 
 
 
