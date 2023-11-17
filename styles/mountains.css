@@ -8,9 +8,7 @@ select{
     font-size: larger;
 }    
 
-.result{
-    display: flex;
-    flex: 1;
+div.result{
     font-size: larger;
 }
 
